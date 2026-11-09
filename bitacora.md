@@ -28,3 +28,26 @@
 - **Patrones repetitivos:** Cada cliente repite exactamente el mismo ciclo secuencial de atencion, cobro y entrega.
 - **Abstraccion:** Se dejan los detalles operativos irrelevantes para la logica general del flujo, (marca del datafono, conversacion casual, vestuario del cliente, tipo de banco si el pago es bancario).
 - **Algoritmo final:** Es la secunecia ordenana de 8 pasos que estandarisa el servicio para todo tipo de cliente en recepcion.
+
+
+# MiniReto 2: La primera cotizacion en PSeint
+
+## Tabla:
+| Entrada                | Proceso                   |Salida                 |
+|________________________|___________________________|_______________________|
+| Nombre del cliente:    | Constante para precio:    | Mensaje en pantalla:  |
+| - nombre               |  precio_h <- 10000        |                       |
+| - caracteres           |                           |                       |
+|________________________|___________________________| El nombre y el valor  |
+| Horas de Alquiler:     | Calcular el valor total:  | total calculado.      |
+| - horas                |                           |                       |
+| - entero               | total <- horas*precio_h   |                       |
+|________________________|___________________________|_______________________|
+
+## Casos de prueba:
+
+* **1 hora:** $10000
+* **3 horas:** $30000
+* **8 horas:** $80000
+* **0 horas:** $0
+* **-3 horas:** $-30000
