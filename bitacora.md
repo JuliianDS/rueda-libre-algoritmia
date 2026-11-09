@@ -28,7 +28,7 @@
 - **Patrones repetitivos:** Cada cliente repite exactamente el mismo ciclo secuencial de atencion, cobro y entrega.
 - **Abstraccion:** Se dejan los detalles operativos irrelevantes para la logica general del flujo, (marca del datafono, conversacion casual, vestuario del cliente, tipo de banco si el pago es bancario).
 - **Algoritmo final:** Es la secunecia ordenana de 8 pasos que estandarisa el servicio para todo tipo de cliente en recepcion.
-
+_____________________________________________________________________________________________________________
 
 # MiniReto 2: La primera cotizacion en PSeint
 
@@ -51,3 +51,24 @@
 * **8 horas:** $80000
 * **0 horas:** $0
 * **-3 horas:** $-30000
+
+______________________________________________________________________________________________________________
+
+# MiniReto 3:Recorridos guiados
+
+## Tabla
+
+| Línea / Instrucción                | recorrido    | precio_persona | personas | total | anticipo | saldo |
+|------------------------------------|---------------------|---------|----------|-------|----------|-------|
+| Leer recorrido                     | "Sabores de Barrio" |     -   |     -    |   -   |    -     |   -   |
+| Leer precio_persona                | "Sabores de Barrio" | 60000   |     -    |   -   |    -     |   -   |
+| Leer personas                      | "Sabores de Barrio" | 60000   |     4    |   -   |    -     |   -   |
+| total <- precio_persona * personas | "Sabores de Barrio" | 60000   |     4    | 240000|    -     |   -   |
+| anticipo <- redon(total * 0.30)    | "Sabores de Barrio" | 60000   |     4    | 240000| 72000    |   -   |
+| saldo <- total - anticipo          | "Sabores de Barrio" | 60000   |     4    | 240000| 72000    | 168000|
+
+## Simbolos de flujograma:
+
+* **ovalo:** para inicio y fin del algoritmo
+* **paralelogramo:** para entrada y salida de datos
+* **rectangulo:** para procesos de calculo
