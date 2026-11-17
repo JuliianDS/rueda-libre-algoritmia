@@ -1,7 +1,7 @@
 Algoritmo cuneta_grupo
-	Definir cant_ciclas, horas, personas, p_bici Como Entero
-	Definir p_recorrido, v_bicis, v_recorrido, subtotal, aporte, total Como Real
-	p_bici <- 10000
+	Definir cant_ciclas, horas, personas, p_bici Como Entero;
+	Definir p_recorrido, v_bicis, v_recorrido, subtotal, aporte, total, v_persona Como Real;
+	p_bici <- 10000;
 	Escribir 'ingresa la cantidad de bicicletas urbanas'
 	Leer cant_ciclas
 	Escribir 'ingresa las horas de alquiler'

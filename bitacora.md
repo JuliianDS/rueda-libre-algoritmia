@@ -54,7 +54,7 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________________
 
-# MiniReto 3:Recorridos guiados
+# MiniReto 3: Recorridos guiados
 
 ## Tabla
 
@@ -72,3 +72,24 @@ ________________________________________________________________________________
 * **ovalo:** para inicio y fin del algoritmo
 * **paralelogramo:** para entrada y salida de datos
 * **rectangulo:** para procesos de calculo
+
+____________________________________________________________________________________________________________
+
+# MiniReto 4: La cuenta grupal
+
+## Pasos para calcular factura
+
+1. **lectura de datos de entrada:** cantidad de bicicletas urbanas, horas de alquiler, precio del recorrido que elijan, cantidad de personas del grupo.
+2. **calculo de alquiler de bicicletas:** cantidad de bicicletas por horas de laquiler y por el precio de cada bicicleta.
+3. **calculo de recorrido:** precio del recorrido por el cantidad de personas.
+4. **subtotal:** se suman el calculo del alquiler con el calculo del recorrido.
+5. **aporte:** se saca el 10% al subtotal.
+6. **total.** se suma el subtotal mas el aporte.
+7. **valor a pagar por persona con redondeo:** se divide el total por la cantidad de personas, se redondea hacia arriba.
+
+### Explicacion del redondeo
+
+Para realizar el redondeo, por ejemplo que quede para cada persona $39.904, usamos redon para que suba el valor a $40000, se hace de esta manera (redon((total/personas)/100))*100, se divide por 100 para que quede la minima exprecion del valor 399.04 redon la sube a 400 y se vuelve a multiplicar por 100 para un total por persona de $40000.
+___________________________________________________________________________________________________________
+
+# 
